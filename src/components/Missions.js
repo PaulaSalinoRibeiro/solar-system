@@ -8,7 +8,17 @@ class Missions extends Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        <MissionCard />
+        {
+          missions.map((e, i) => (
+            <MissionCard
+              key={ i }
+              name={ e.name }
+              year={ e.year }
+              country={ e.country }
+              destination={ e.destination }
+            />
+          ))
+        }
       </div>
     );
   }
