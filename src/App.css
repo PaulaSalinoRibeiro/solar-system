@@ -26,6 +26,7 @@ h1 {
   font-size: 36px;
   justify-content: center;
   margin: auto;
+  margin-bottom: 10px;
   padding: 24px;
   width: 95%;
 }
@@ -41,11 +42,10 @@ h1 {
   display: flex;
   flex-flow: column wrap;
   margin: auto;
-  padding: 5px;
 }
 
 .card-planet:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
   transition: all 0.2s;
 }
 
@@ -66,19 +66,19 @@ h1 {
 }
 
 .Júpiter img {
-  width: 350px;
+  width: 300px;
 }
 
 .Saturno img {
-  width: 350px;
+  width: 300px;
 }
 
 .Urano img {
-  width: 200px;
+  width: 180px;
 }
 
 .Netuno img {
-  width: 200px;
+  width: 180px;
 }
 
 .mission-card {
@@ -92,6 +92,13 @@ h1 {
   width: 180px;
 }
 
+.mission {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+}
+
 .mission-card p {
   font-size: 18px;
   line-height: 24px;
@@ -99,11 +106,9 @@ h1 {
   text-align: center;
 }
 
-.mission {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin: auto;
+.mission-card:hover {
+  transform: scale(1.2);
+  transition: all 0.2s;
 }
 
 .mission h2 {
